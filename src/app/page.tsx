@@ -37,7 +37,7 @@ export default function Home() {
         Lottie Animations Demo
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         <div className="flex flex-col items-center p-4 border rounded-lg shadow-lg bg-white">
           <h2 className="text-xl font-semibold mb-4 text-gray-800">
             First Animation
@@ -75,6 +75,20 @@ export default function Home() {
           <div className="w-[300px] h-[300px]">
             <DotLottieReact
               src="https://lottie.host/1df37730-55ba-40c8-bb83-f0416061abe0/whEJyq6SPQ.lottie"
+              loop
+              autoplay
+              style={{ width: "300px", height: "300px" }}
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center p-4 border rounded-lg shadow-lg bg-white">
+          <h2 className="text-xl font-semibold mb-4 text-gray-800">
+            Fourth Animation
+          </h2>
+          <div className="w-[300px] h-[300px]">
+            <DotLottieReact
+              src="https://lottie.host/c8c2c2b2-3639-47fa-a02a-87ff90eb6c0f/lEBDZxecfH.lottie"
               loop
               autoplay
               style={{ width: "300px", height: "300px" }}
